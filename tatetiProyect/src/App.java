@@ -2,8 +2,11 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Bienvenidos al tateti (Prueba Desoxitdante)");
-            
+            System.out.println("Bienvenidos al tateti (Prueba Desoxitdante)");  
+            System.out.println("ingrese Nombre 1");
+            String nombre = scanner.nextLine();
+            System.out.println("ingrese Nombre 2");
+            String nombre2 = scanner.nextLine();
             char [][] board = new char[3][3];
             
             for(int i = 0 ; i <board.length ; i++){
